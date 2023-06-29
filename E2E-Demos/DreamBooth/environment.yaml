@@ -1,0 +1,20 @@
+name: dreambooth
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.0
+  - pip
+  - pip:
+    - torch
+    - torchvision
+    - scipy
+    - bitsandbytes
+    - Pillow
+    - matplotlib
+    - tqdm
+    - huggingface-hub
+    - accelerate
+    - transformers
+    - diffusers
+    - jupyter
